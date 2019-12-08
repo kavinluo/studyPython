@@ -3,15 +3,20 @@
 class Father:
     def eat(self):
         print('i haver a eat')
+        pass
 
 class Mother:
     def walk(self):
-        print('i haver a walk ')
+        print('i haver a walk ---')
+        pass
 
 class Son(Father,Mother):
-    pass
+        pass
 
 s1 = Son()
 
-s1.eat()
-s1.walk()
+if __name__ == "__main__":
+    s1.eat()
+
+if __name__ == "__main__":
+    s1.walk()
